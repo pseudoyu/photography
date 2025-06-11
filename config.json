@@ -1,0 +1,22 @@
+{
+  "name": "Innei's Photo Gallery",
+  "title": "Innei's Photo Gallery",
+  "description": "Capturing beautiful moments in life, documenting daily warmth and emotions through my lens.",
+  "url": "https://gallery.innei.in",
+  "accentColor": "#fb7185",
+  "ogImage": {
+    "width": 1200,
+    "height": 630
+  },
+  "author": {
+    "name": "Photo Gallery",
+    "url": "https://innei.in/",
+    "avatar": "//cdn.jsdelivr.net/gh/Innei/static@master/avatar.png"
+  },
+  "social": {
+    "twitter": "@__oQuery"
+  },
+  "extra": {
+    "accessRepo": true
+  }
+}
