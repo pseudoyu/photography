@@ -17,7 +17,7 @@ FROM base AS builder
 
 RUN apk update && apk add --no-cache git
 
-RUN git clone https://github.com/Iris-Photo-Gallery/iris --depth 1 .
+RUN git clone https://github.com/Afilmory/Afilmory --depth 1 .
 COPY config.json ./
 COPY builder.config.json ./
 COPY .env ./
@@ -28,7 +28,7 @@ RUN pnpm install --frozen-lockfile
 
 # Build the app.
 # The build script in the ssr package.json handles building the web app first.
-RUN pnpm --filter=@photo-gallery/ssr build
+RUN pnpm --filter=@afilmory/ssr build
 
 # -----------------
 # Runner stage
