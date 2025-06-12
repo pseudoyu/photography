@@ -1,20 +1,21 @@
 {
-  "name": "Innei's Photo Gallery",
-  "title": "Innei's Photo Gallery",
+  "name": "pseudoyu's Photography",
+  "title": "pseudoyu's Photography",
   "description": "Capturing beautiful moments in life, documenting daily warmth and emotions through my lens.",
-  "url": "https://gallery.innei.in",
-  "accentColor": "#fb7185",
+  "url": "https://photography.pseudoyu.com",
+  "accentColor": "#C93B34",
   "ogImage": {
     "width": 1200,
     "height": 630
   },
   "author": {
-    "name": "Photo Gallery",
-    "url": "https://innei.in/",
-    "avatar": "//cdn.jsdelivr.net/gh/Innei/static@master/avatar.png"
+    "name": "pseudoyu",
+    "url": "https://www.pseudoyu.com",
+    "avatar": "https://www.pseudoyu.com/avatar.webp"
   },
   "social": {
-    "twitter": "@__oQuery"
+    "twitter": "@pseudo_yu",
+    "github": "pseudoyu"
   },
   "extra": {
     "accessRepo": true
