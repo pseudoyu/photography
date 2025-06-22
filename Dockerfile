@@ -21,7 +21,8 @@ RUN git clone https://github.com/Afilmory/Afilmory --depth 1 .
 COPY config.json ./
 COPY builder.config.json ./
 COPY .env ./
-
+ARG S3_ACCESS_KEY_ID
+ARG S3_SECRET_ACCESS_KEY
 RUN sh ./scripts/preinstall.sh
 # Install all dependencies
 RUN pnpm install --frozen-lockfile
